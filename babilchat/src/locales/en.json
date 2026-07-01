@@ -1,0 +1,173 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "close": "Close",
+    "retry": "Retry",
+    "done": "Done",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "home": "Home",
+    "chat": "Chat",
+    "prayerWall": "Prayer Wall",
+    "study": "Study",
+    "profile": "Profile"
+  },
+  "home": {
+    "greeting": "As-Salamu Alaikum",
+    "subtitle": "Welcome to your spiritual journey",
+    "dailyVerse": "Daily Verse",
+    "prayerTimes": "Prayer Times",
+    "quickAccess": "Quick Access",
+    "thisWeek": "This Week",
+    "prayers": "Prayers",
+    "chats": "Chats",
+    "studies": "Studies",
+    "aiChat": "AI Chat",
+    "dailyPrayer": "Daily Prayer",
+    "quran": "Quran",
+    "prayerWallShort": "Prayer Wall"
+  },
+  "chat": {
+    "title": "AI Guide",
+    "subtitle": "Spiritual Advisor",
+    "placeholder": "Ask your question...",
+    "quickQuestions": {
+      "prayer": "How to perform prayer?",
+      "ablution": "How to perform ablution?",
+      "dailyPrayers": "What are daily prayers?",
+      "quranEtiquette": "Quran reading etiquette"
+    },
+    "messageTypes": {
+      "verse": "Verse",
+      "hadith": "Hadith",
+      "advice": "Advice"
+    }
+  },
+  "prayerWall": {
+    "title": "Prayer Wall",
+    "subtitle": "Share prayers with community",
+    "categories": {
+      "all": "All",
+      "health": "Health",
+      "family": "Family",
+      "guidance": "Guidance",
+      "gratitude": "Gratitude"
+    },
+    "addPrayer": "Add Prayer",
+    "prayerTitle": "Title",
+    "prayerContent": "Prayer Text",
+    "category": "Category",
+    "anonymous": "Share anonymously",
+    "prayFor": "Pray",
+    "prayed": "Prayed",
+    "peopleProyed": "people prayed",
+    "timeAgo": {
+      "now": "Now",
+      "hoursAgo": "{{hours}} hours ago",
+      "daysAgo": "{{days}} days ago"
+    }
+  },
+  "study": {
+    "title": "Study Center",
+    "subtitle": "Continue your spiritual education",
+    "tabs": {
+      "categories": "Categories",
+      "plans": "My Plans",
+      "recent": "Recent"
+    },
+    "categories": {
+      "quran": "Holy Quran",
+      "hadith": "Hadith",
+      "prayers": "Prayers",
+      "names": "99 Names of Allah"
+    },
+    "content": "content",
+    "complete": "Complete in 30 days",
+    "progress": "{{progress}}%",
+    "thisWeekStats": {
+      "days": "Days",
+      "minutes": "Minutes",
+      "surahs": "Surahs"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "myStats": "My Statistics",
+    "achievements": "Recent Achievements",
+    "settings": "Settings",
+    "logout": "Logout",
+    "stats": {
+      "prayers": "Prayers",
+      "studies": "Studies",
+      "streak": "Streak",
+      "level": "Level"
+    },
+    "settingsItems": {
+      "notifications": "Notifications",
+      "notificationsDesc": "General notification settings",
+      "prayerReminders": "Prayer Reminders",
+      "prayerRemindersDesc": "Get notified at prayer times",
+      "darkMode": "Dark Mode",
+      "darkModeDesc": "Use night theme",
+      "language": "Language Settings",
+      "backup": "Backup",
+      "backupDesc": "Backup your data",
+      "privacy": "Privacy",
+      "privacyDesc": "Privacy settings",
+      "help": "Help & Support",
+      "helpDesc": "Frequently asked questions",
+      "about": "About App"
+    }
+  },
+  "splash": {
+    "appName": "Babil Chat",
+    "tagline": "Your Spiritual Journey Guide",
+    "getStarted": "Get Started",
+    "welcomeMessage": "As-Salamu Alaikum! Ready to begin your spiritual journey?",
+    "features": {
+      "aiGuidance": "AI-powered spiritual guidance",
+      "dailyVerses": "Daily verses and hadiths",
+      "communityPrayers": "Community prayer wall"
+    },
+    "footerVerse": "\"And pray to Him with fear and hope. Indeed, the mercy of Allah is near to the doers of good.\"",
+    "verseReference": "Surah Al-A'raf - Verse 56"
+  },
+  "prayerTimes": {
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  },
+  "islamic": {
+    "bismillah": "Bismillahirrahmanirrahim",
+    "alhamdulillah": "Alhamdulillah",
+    "subhanallah": "Subhanallah",
+    "mashallah": "Mashallah",
+    "inshallah": "Inshallah",
+    "astagfirullah": "Astaghfirullah"
+  },
+  "errors": {
+    "networkError": "Network connection error",
+    "serverError": "Server error",
+    "validationError": "Please fill all fields",
+    "unknownError": "Unknown error occurred"
+  }
+} 

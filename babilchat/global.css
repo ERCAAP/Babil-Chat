@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for Babil Chat */
+:root {
+  --scale-factor: 1;
+  --app-bg: #0f0f23;
+  --app-surface: #1a1a2e;
+  --app-card: #16213e;
+  --app-primary: #8b5cf6;
+  --app-text: #ffffff;
+  --app-text-secondary: #e2e8f0;
+  --app-text-muted: #94a3b8;
+}
+
+/* Custom base styles */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--app-bg);
+    color: var(--app-text);
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Card components */
+  .card {
+    @apply bg-gradient-card rounded-2xl p-5 shadow-ios;
+  }
+  
+  .card-primary {
+    @apply bg-gradient-primary rounded-2xl p-5 shadow-ios;
+  }
+  
+  /* Button components */
+  .btn {
+    @apply px-6 py-3 rounded-xl font-latin-semibold text-sm uppercase tracking-wide;
+  }
+  
+  .btn-primary {
+    @apply btn bg-gradient-primary text-white shadow-primary;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-gradient-card text-app-text border border-app-border;
+  }
+  
+  /* Text components */
+  .text-heading {
+    @apply font-latin-bold text-2xl text-app-text;
+  }
+  
+  .text-subheading {
+    @apply font-latin-semibold text-lg text-app-text-secondary;
+  }
+  
+  .text-body {
+    @apply font-latin-regular text-base text-app-text-secondary leading-relaxed;
+  }
+  
+  .text-caption {
+    @apply font-latin-regular text-sm text-app-text-muted;
+  }
+  
+  /* Arabic text components */
+  .text-arabic-verse {
+    @apply text-arabic text-xl leading-loose text-right;
+  }
+  
+  .text-arabic-title {
+    @apply text-arabic-bold text-2xl leading-normal text-right;
+  }
+  
+  /* Navigation components */
+  .tab-bar {
+    @apply absolute bottom-0 left-0 right-0 h-22 bg-transparent border-t-0;
+  }
+  
+  .tab-item {
+    @apply flex-1 items-center justify-center;
+  }
+  
+  /* Input components */
+  .input {
+    @apply bg-gradient-card rounded-xl px-4 py-3 text-app-text border border-app-border;
+  }
+  
+  .input-focus {
+    @apply border-primary-500;
+  }
+}
+
+/* Utility classes */
+@layer utilities {
+  /* RTL utilities */
+  .rtl {
+    direction: rtl;
+  }
+  
+  .ltr {
+    direction: ltr;
+  }
+  
+  /* Responsive utilities */
+  .responsive-padding {
+    padding: calc(1rem * var(--scale-factor));
+  }
+  
+  .responsive-margin {
+    margin: calc(1rem * var(--scale-factor));
+  }
+  
+  /* Islamic/Arabic utilities */
+  .islamic-border {
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 16px;
+  }
+  
+  .prayer-time-active {
+    @apply bg-primary-500/20 border-primary-500/50 rounded-lg px-3 -mx-3;
+  }
+  
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-in-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.2s ease-in-out;
+  }
+  
+  /* Gradient backgrounds */
+  .bg-app-gradient {
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  }
+  
+  .bg-card-gradient {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  }
+  
+  .bg-primary-gradient {
+    background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
+  }
+  
+  /* Shadow utilities for iOS */
+  .shadow-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .shadow-card-lg {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .shadow-primary {
+    box-shadow: 0 4px 8px rgba(139, 92, 246, 0.3);
+  }
+}
+
+/* Custom keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive breakpoints */
+@media (min-width: 375px) {
+  :root {
+    --scale-factor: 1;
+  }
+}
+
+@media (min-width: 390px) {
+  :root {
+    --scale-factor: 1.04;
+  }
+}
+
+@media (min-width: 430px) {
+  :root {
+    --scale-factor: 1.15;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --scale-factor: 1.5;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --scale-factor: 2;
+  }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --app-bg: #0f0f23;
+    --app-surface: #1a1a2e;
+    --app-card: #16213e;
+  }
+} 

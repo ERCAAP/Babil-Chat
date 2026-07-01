@@ -1,0 +1,173 @@
+{
+  "common": {
+    "welcome": "Hoş Geldiniz",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "cancel": "İptal",
+    "continue": "Devam Et",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "share": "Paylaş",
+    "close": "Kapat",
+    "retry": "Tekrar Dene",
+    "done": "Tamamlandı",
+    "next": "İleri",
+    "previous": "Geri",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "chat": "Sohbet",
+    "prayerWall": "Dua Duvarı",
+    "study": "Çalışma",
+    "profile": "Profil"
+  },
+  "home": {
+    "greeting": "Selamu Aleykum",
+    "subtitle": "Manevi yolculuğunuza hoş geldiniz",
+    "dailyVerse": "Günün Ayeti",
+    "prayerTimes": "Namaz Vakitleri",
+    "quickAccess": "Hızlı Erişim",
+    "thisWeek": "Bu Hafta",
+    "prayers": "Dua Edildi",
+    "chats": "Sohbet",
+    "studies": "Çalışma",
+    "aiChat": "AI Sohbet",
+    "dailyPrayer": "Günlük Dua",
+    "quran": "Kur'an",
+    "prayerWallShort": "Dua Duvarı"
+  },
+  "chat": {
+    "title": "AI Rehber",
+    "subtitle": "Manevi Danışman",
+    "placeholder": "Sorunuzu yazın...",
+    "quickQuestions": {
+      "prayer": "Namaz nasıl kılınır?",
+      "ablution": "Abdest nasıl alınır?",
+      "dailyPrayers": "Günlük dualar nelerdir?",
+      "quranEtiquette": "Kur'an okuma adabı"
+    },
+    "messageTypes": {
+      "verse": "Ayet",
+      "hadith": "Hadis",
+      "advice": "Tavsiye"
+    }
+  },
+  "prayerWall": {
+    "title": "Dua Duvarı",
+    "subtitle": "Topluluk ile dua paylaş",
+    "categories": {
+      "all": "Tümü",
+      "health": "Sağlık",
+      "family": "Aile",
+      "guidance": "Rehberlik",
+      "gratitude": "Şükür"
+    },
+    "addPrayer": "Dua Ekle",
+    "prayerTitle": "Başlık",
+    "prayerContent": "Dua Metni",
+    "category": "Kategori",
+    "anonymous": "Anonim olarak paylaş",
+    "prayFor": "Dua Et",
+    "prayed": "Dua Ettim",
+    "peopleProyed": "kişi dua etti",
+    "timeAgo": {
+      "now": "Şimdi",
+      "hoursAgo": "{{hours}} saat önce",
+      "daysAgo": "{{days}} gün önce"
+    }
+  },
+  "study": {
+    "title": "Çalışma Merkezi",
+    "subtitle": "Manevi eğitiminize devam edin",
+    "tabs": {
+      "categories": "Kategoriler",
+      "plans": "Planlarım",
+      "recent": "Son Okunanlar"
+    },
+    "categories": {
+      "quran": "Kur'an-ı Kerim",
+      "hadith": "Hadis-i Şerif",
+      "prayers": "Dualar",
+      "names": "Esma-ül Hüsna"
+    },
+    "content": "içerik",
+    "complete": "30 günde tamamla",
+    "progress": "%{{progress}}",
+    "thisWeekStats": {
+      "days": "Gün",
+      "minutes": "Dakika",
+      "surahs": "Sure"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "editProfile": "Profili Düzenle",
+    "myStats": "İstatistiklerim",
+    "achievements": "Son Başarılar",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap",
+    "stats": {
+      "prayers": "Dua",
+      "studies": "Çalışma",
+      "streak": "Seri",
+      "level": "Seviye"
+    },
+    "settingsItems": {
+      "notifications": "Bildirimler",
+      "notificationsDesc": "Genel bildirim ayarları",
+      "prayerReminders": "Namaz Hatırlatıcıları",
+      "prayerRemindersDesc": "Namaz vakitlerinde bildirim al",
+      "darkMode": "Karanlık Mod",
+      "darkModeDesc": "Gece temasını kullan",
+      "language": "Dil Ayarları",
+      "backup": "Yedekleme",
+      "backupDesc": "Verilerinizi yedekleyin",
+      "privacy": "Gizlilik",
+      "privacyDesc": "Gizlilik ayarları",
+      "help": "Yardım & Destek",
+      "helpDesc": "Sık sorulan sorular",
+      "about": "Uygulama Hakkında"
+    }
+  },
+  "splash": {
+    "appName": "Babil Chat",
+    "tagline": "Manevi Yolculuğunuzun Rehberi",
+    "getStarted": "Başlayalım",
+    "welcomeMessage": "Selamu Aleykum! Manevi yolculuğunuza başlamaya hazır mısınız?",
+    "features": {
+      "aiGuidance": "AI destekli manevi rehberlik",
+      "dailyVerses": "Günlük ayet ve hadisler",
+      "communityPrayers": "Topluluk dua duvarı"
+    },
+    "footerVerse": "\"Ve O'na dua edin, korkarak ve umarak. Şüphesiz Allah'ın rahmeti iyilik edenlere çok yakındır.\"",
+    "verseReference": "A'raf Suresi - 56. Ayet"
+  },
+  "prayerTimes": {
+    "fajr": "İmsak",
+    "sunrise": "Güneş",
+    "dhuhr": "Öğle",
+    "asr": "İkindi",
+    "maghrib": "Akşam",
+    "isha": "Yatsı"
+  },
+  "islamic": {
+    "bismillah": "Bismillahirrahmanirrahim",
+    "alhamdulillah": "Elhamdülillah",
+    "subhanallah": "Sübhanallah",
+    "mashallah": "Maşallah",
+    "inshallah": "İnşallah",
+    "astagfirullah": "Estagfirullah"
+  },
+  "errors": {
+    "networkError": "İnternet bağlantısı hatası",
+    "serverError": "Sunucu hatası",
+    "validationError": "Lütfen tüm alanları doldurun",
+    "unknownError": "Bilinmeyen hata oluştu"
+  }
+} 

@@ -1,0 +1,173 @@
+{
+  "common": {
+    "welcome": "أهلاً وسهلاً",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "continue": "متابعة",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "share": "مشاركة",
+    "close": "إغلاق",
+    "retry": "إعادة المحاولة",
+    "done": "تم",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "chat": "المحادثة",
+    "prayerWall": "جدار الدعاء",
+    "study": "الدراسة",
+    "profile": "الملف الشخصي"
+  },
+  "home": {
+    "greeting": "السلام عليكم",
+    "subtitle": "أهلاً بك في رحلتك الروحية",
+    "dailyVerse": "آية اليوم",
+    "prayerTimes": "مواقيت الصلاة",
+    "quickAccess": "الوصول السريع",
+    "thisWeek": "هذا الأسبوع",
+    "prayers": "الدعوات",
+    "chats": "المحادثات",
+    "studies": "الدراسات",
+    "aiChat": "محادثة الذكي",
+    "dailyPrayer": "دعاء يومي",
+    "quran": "القرآن",
+    "prayerWallShort": "جدار الدعاء"
+  },
+  "chat": {
+    "title": "المرشد الذكي",
+    "subtitle": "المستشار الروحي",
+    "placeholder": "اكتب سؤالك...",
+    "quickQuestions": {
+      "prayer": "كيفية أداء الصلاة؟",
+      "ablution": "كيفية الوضوء؟",
+      "dailyPrayers": "ما هي الأدعية اليومية؟",
+      "quranEtiquette": "آداب قراءة القرآن"
+    },
+    "messageTypes": {
+      "verse": "آية",
+      "hadith": "حديث",
+      "advice": "نصيحة"
+    }
+  },
+  "prayerWall": {
+    "title": "جدار الدعاء",
+    "subtitle": "شارك الدعاء مع المجتمع",
+    "categories": {
+      "all": "الكل",
+      "health": "الصحة",
+      "family": "الأسرة",
+      "guidance": "الهداية",
+      "gratitude": "الشكر"
+    },
+    "addPrayer": "إضافة دعاء",
+    "prayerTitle": "العنوان",
+    "prayerContent": "نص الدعاء",
+    "category": "الفئة",
+    "anonymous": "مشاركة مجهولة",
+    "prayFor": "ادع",
+    "prayed": "دعوت",
+    "peopleProyed": "شخص دعا",
+    "timeAgo": {
+      "now": "الآن",
+      "hoursAgo": "منذ {{hours}} ساعة",
+      "daysAgo": "منذ {{days}} يوم"
+    }
+  },
+  "study": {
+    "title": "مركز الدراسة",
+    "subtitle": "تابع تعليمك الروحي",
+    "tabs": {
+      "categories": "الفئات",
+      "plans": "خططي",
+      "recent": "الأخيرة"
+    },
+    "categories": {
+      "quran": "القرآن الكريم",
+      "hadith": "الحديث الشريف",
+      "prayers": "الأدعية",
+      "names": "أسماء الله الحسنى"
+    },
+    "content": "محتوى",
+    "complete": "أكمل في 30 يوماً",
+    "progress": "{{progress}}%",
+    "thisWeekStats": {
+      "days": "أيام",
+      "minutes": "دقائق",
+      "surahs": "سور"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "editProfile": "تعديل الملف الشخصي",
+    "myStats": "إحصائياتي",
+    "achievements": "الإنجازات الأخيرة",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "stats": {
+      "prayers": "دعوات",
+      "studies": "دراسات",
+      "streak": "متسلسل",
+      "level": "المستوى"
+    },
+    "settingsItems": {
+      "notifications": "الإشعارات",
+      "notificationsDesc": "إعدادات الإشعارات العامة",
+      "prayerReminders": "تذكير الصلاة",
+      "prayerRemindersDesc": "تلقي إشعار في أوقات الصلاة",
+      "darkMode": "الوضع المظلم",
+      "darkModeDesc": "استخدام السمة الليلية",
+      "language": "إعدادات اللغة",
+      "backup": "النسخ الاحتياطي",
+      "backupDesc": "النسخ الاحتياطي لبياناتك",
+      "privacy": "الخصوصية",
+      "privacyDesc": "إعدادات الخصوصية",
+      "help": "المساعدة والدعم",
+      "helpDesc": "الأسئلة المتكررة",
+      "about": "حول التطبيق"
+    }
+  },
+  "splash": {
+    "appName": "بابل شات",
+    "tagline": "دليل رحلتك الروحية",
+    "getStarted": "ابدأ",
+    "welcomeMessage": "السلام عليكم! هل أنت مستعد لبدء رحلتك الروحية؟",
+    "features": {
+      "aiGuidance": "إرشاد روحي بالذكاء الاصطناعي",
+      "dailyVerses": "آيات وأحاديث يومية",
+      "communityPrayers": "جدار دعاء المجتمع"
+    },
+    "footerVerse": "\"وادعوه خوفاً وطمعاً إن رحمت الله قريب من المحسنين\"",
+    "verseReference": "سورة الأعراف - الآية 56"
+  },
+  "prayerTimes": {
+    "fajr": "الفجر",
+    "sunrise": "الشروق",
+    "dhuhr": "الظهر",
+    "asr": "العصر",
+    "maghrib": "المغرب",
+    "isha": "العشاء"
+  },
+  "islamic": {
+    "bismillah": "بسم الله الرحمن الرحيم",
+    "alhamdulillah": "الحمد لله",
+    "subhanallah": "سبحان الله",
+    "mashallah": "ما شاء الله",
+    "inshallah": "إن شاء الله",
+    "astagfirullah": "أستغفر الله"
+  },
+  "errors": {
+    "networkError": "خطأ في الاتصال بالإنترنت",
+    "serverError": "خطأ في الخادم",
+    "validationError": "يرجى ملء جميع الحقول",
+    "unknownError": "حدث خطأ غير معروف"
+  }
+} 
